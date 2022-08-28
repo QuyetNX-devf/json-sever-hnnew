@@ -67,6 +67,6 @@ app.use("/api/product-like", productLikeRouter);
 app.use("/api/banner-category", bannerCategoryRouter);
 // app.use("/api/products", accountRouter);
 
-const PORT = 5000;
+const PORT = process.env.PORT || 5000;
 
 app.listen(PORT, () => console.log(`server start port ${PORT}`));
