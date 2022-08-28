@@ -1,0 +1,23 @@
+{
+  "name": "express",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon app"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "argon2": "^0.28.5",
+    "body-parser": "^1.20.0",
+    "config": "^3.3.7",
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.1",
+    "express": "^4.18.1",
+    "express-handlebars": "^6.0.6",
+    "jsonwebtoken": "^8.5.1",
+    "lodash": "^4.17.21",
+    "method-override": "^3.0.0",
+    "mongoose": "^6.4.1",
+    "nodemon": "^2.0.18"
+  }
+}

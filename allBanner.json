@@ -1,0 +1,106 @@
+{
+  "banner_homepage": {
+    "banner_slide_home": [
+      {
+        "id": "sdfh30iaa",
+        "image": "/images/banner/banner-slide-1.jpg",
+        "title": "slide 1",
+        "url": "#",
+        "summary": "skjdakjsdkasjdkasjd"
+      },
+      {
+        "id": "sdfh30isdsd",
+        "image": "/images/banner/banner-slide-2.jpg",
+        "title": "slide 1",
+        "url": "#",
+        "summary": "skjdakjsdkasjdkasjd"
+      },
+      {
+        "id": "sdfh30iss",
+        "image": "/images/banner/banner-slide-3.jpg",
+        "title": "slide 1",
+        "url": "#",
+        "summary": "skjdakjsdkasjdkasjd"
+      }
+    ],
+    "banner_small": [
+      {
+        "id": "sdfh30iqezs",
+        "image": "/images/banner/banner-small-1.jpg",
+        "title": "slide 1",
+        "url": "#",
+        "summary": "skjdakjsdkasjdkasjd"
+      },
+      {
+        "id": "sdfh30iqezs",
+        "image": "/images/banner/banner-small-3.jpg",
+        "title": "slide 1",
+        "url": "#",
+        "summary": "skjdakjsdkasjdkasjd"
+      },
+      {
+        "id": "sdfh30iqezs",
+        "image": "/images/banner/banner-small-2.jpg",
+        "title": "slide 1",
+        "url": "#",
+        "summary": "skjdakjsdkasjdkasjd"
+      },
+      {
+        "id": "sdfh30iqezs",
+        "image": "/images/banner/banner-small-4.jpg",
+        "title": "slide 1",
+        "url": "#",
+        "summary": "skjdakjsdkasjdkasjd"
+      },
+      {
+        "id": "sdfh30iqezs",
+        "image": "/images/banner/banner-small-5.jpg",
+        "title": "slide 1",
+        "url": "#",
+        "summary": "skjdakjsdkasjdkasjd"
+      }
+    ],
+    "banner_mobile": [
+      {
+        "id": "sdf560iaa",
+        "image": "https://hanoinew.vn/media/banner/01_Novc29a4e9fc2f4e328d51249e1c5032645.jpg",
+        "title": "slide 1",
+        "url": "#",
+        "summary": "skjdakjsdkasjdkasjd"
+      },
+      {
+        "id": "12f560iaa",
+        "image": "https://hanoinew.vn/media/banner/01_Nova4acb965cbafd8f0c4b3dd1adce02a2a.jpg",
+        "title": "slide 2",
+        "url": "#",
+        "summary": "skjdakjsdkasjdkasjd"
+      },
+      {
+        "id": "3845f60iaa",
+        "image": "https://hanoinew.vn/media/banner/29_Mar832ba5e5db4cc593fa0e89798cabbe01.jpg",
+        "title": "slide 3",
+        "url": "#",
+        "summary": "skjdakjsdkasjdkasjd"
+      }
+    ]
+  },
+  "banner_category": [
+    {
+      "id": "sdfh30iqezs",
+      "image": "https://hanoinew.vn/media/banner/16_Aug4c1b7f0b73411046afcdc86d11378c49.jpg",
+      "title": "slide 1",
+      "url": "#",
+      "summary": "skjdakjsdkasjdkasjd",
+      "categoryInfo": [
+        {
+          "id": "12h3sdsd",
+          "name": "Linh kiện máy tính"
+        },
+        {
+          "id": "1sh3",
+          "name": "Cpu-Bộ vi xử lý"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,555 @@
+[
+  {
+    "id": "12h3sdsd",
+    "name": "Linh kiện máy tính",
+    "url": "#",
+    "summary": "<h2>lorem</h2>",
+    "type": "product",
+    "isParent": 1,
+    "isFeatured": 1,
+    "thumbnail": {
+      "icons": "/images/icon-category/ic_1.png",
+      "image": "/"
+    },
+    "children": [
+      {
+        "id": "1sh3",
+        "name": "Cpu-Bộ vi xử lý",
+        "url": "#",
+        "summary": "lorem",
+        "type": "product",
+        "isParent": 1,
+        "isFeatured": 0,
+        "buildPc": 1,
+        "thumbnail": {
+          "icons": "/",
+          "image": "/"
+        },
+        "children": [
+          {
+            "id": "1sh3s",
+            "name": "CPU Intell",
+            "url": "#",
+            "summary": "lorem",
+            "type": "product",
+            "isParent": 0,
+            "isFeatured": 0,
+            "thumbnail": {
+              "icons": "/",
+              "image": "/"
+            }
+          },
+          {
+            "id": "1sh32",
+            "name": "Cpu-AMD",
+            "url": "#",
+            "summary": "lorem",
+            "type": "product",
+            "isParent": 0,
+            "isFeatured": 0,
+            "thumbnail": {
+              "icons": "/",
+              "image": "/"
+            }
+          }
+        ]
+      },
+      {
+        "id": "1sh3jdsh",
+        "name": "MAINBOARD - Bo Mạch Chủ",
+        "url": "#",
+        "summary": "lorem",
+        "type": "product",
+        "isParent": 1,
+        "isFeatured": 0,
+        "buildPc": 1,
+        "thumbnail": {
+          "icons": "/",
+          "image": "/"
+        },
+        "children": [
+          {
+            "id": "1sh3ssdsd7ss",
+            "name": "Mainboard Intel",
+            "url": "#",
+            "summary": "lorem",
+            "type": "product",
+            "isParent": 0,
+            "isFeatured": 0,
+            "thumbnail": {
+              "icons": "/",
+              "image": "/"
+            }
+          },
+          {
+            "id": "1sh32sdsd",
+            "name": "Mainboard AMD",
+            "url": "#",
+            "summary": "lorem",
+            "type": "product",
+            "isParent": 0,
+            "isFeatured": 0,
+            "thumbnail": {
+              "icons": "/",
+              "image": "/"
+            }
+          }
+        ]
+      },
+      {
+        "id": "234dsf",
+        "name": "RAM - Bộ Nhớ Trong",
+        "url": "#",
+        "summary": "lorem",
+        "type": "product",
+        "isParent": 1,
+        "isFeatured": 0,
+        "buildPc": 1,
+        "thumbnail": {
+          "icons": "/",
+          "image": "/"
+        },
+        "children": [
+          {
+            "id": "6546df",
+            "name": "RAM DDR3",
+            "url": "#",
+            "summary": "lorem",
+            "type": "product",
+            "isParent": 0,
+            "isFeatured": 0,
+            "thumbnail": {
+              "icons": "/",
+              "image": "/"
+            }
+          },
+          {
+            "id": "1sh2323",
+            "name": "RAM DDR4",
+            "url": "#",
+            "summary": "lorem",
+            "type": "product",
+            "isParent": 0,
+            "isFeatured": 0,
+            "thumbnail": {
+              "icons": "/",
+              "image": "/"
+            }
+          },
+          {
+            "id": "1sh2s3s",
+            "name": "RAM DDR5",
+            "url": "#",
+            "summary": "lorem",
+            "type": "product",
+            "isParent": 0,
+            "isFeatured": 0,
+            "thumbnail": {
+              "icons": "/",
+              "image": "/"
+            }
+          }
+        ]
+      },
+      {
+        "id": "udj86",
+        "name": "Ổ Cứng SSD",
+        "url": "#",
+        "summary": "lorem",
+        "type": "product",
+        "isParent": 0,
+        "isFeatured": 0,
+        "buildPc": 1,
+        "thumbnail": {
+          "icons": "/",
+          "image": "/"
+        },
+        "children": []
+      },
+      {
+        "id": "udj86yh",
+        "name": "Ổ Cứng HDD",
+        "url": "#",
+        "summary": "lorem",
+        "type": "product",
+        "isParent": 0,
+        "isFeatured": 0,
+        "buildPc": 1,
+        "thumbnail": {
+          "icons": "/",
+          "image": "/"
+        },
+        "children": []
+      },
+      {
+        "id": "udj86yh1",
+        "name": "VGA - Card Màn Hình",
+        "url": "#",
+        "summary": "lorem",
+        "type": "product",
+        "isParent": 0,
+        "isFeatured": 0,
+        "buildPc": 1,
+        "thumbnail": {
+          "icons": "/",
+          "image": "/"
+        },
+        "children": []
+      },
+      {
+        "id": "22j86yh1",
+        "name": "ODD - Ổ Đĩa Quang",
+        "url": "#",
+        "summary": "lorem",
+        "type": "product",
+        "isParent": 0,
+        "isFeatured": 0,
+        "buildPc": 1,
+        "thumbnail": {
+          "icons": "/",
+          "image": "/"
+        },
+        "children": []
+      },
+      {
+        "id": "23j86yh1",
+        "name": "PSU - Nguồn Máy Tính",
+        "url": "#",
+        "summary": "lorem",
+        "type": "product",
+        "isParent": 0,
+        "isFeatured": 0,
+        "buildPc": 1,
+        "thumbnail": {
+          "icons": "/",
+          "image": "/"
+        },
+        "children": []
+      },
+      {
+        "id": "34j86yh1",
+        "name": "CASE - Vỏ Máy Tính",
+        "url": "#",
+        "summary": "lorem",
+        "type": "product",
+        "isParent": 0,
+        "isFeatured": 0,
+        "buildPc": 1,
+        "thumbnail": {
+          "icons": "/",
+          "image": "/"
+        },
+        "children": []
+      }
+    ]
+  },
+  {
+    "id": "12h1",
+    "name": "Máy tính đồng bộ, lăp ráp",
+    "url": "#",
+    "summary": "lorem",
+    "type": "product",
+    "isParent": 1,
+    "isFeatured": 1,
+    "thumbnail": {
+      "icons": "/images/icon-category/ic_2.png",
+      "image": "/"
+    },
+    "children": [
+      {
+        "id": "1sh33434",
+        "name": "Phụ kiện máy tính",
+        "url": "#",
+        "summary": "lorem",
+        "type": "product",
+        "isParent": 1,
+        "isFeatured": 0,
+        "thumbnail": {
+          "icons": "/",
+          "image": "/"
+        },
+        "children": [
+          {
+            "id": "Quety",
+            "name": "Cpu-AMD",
+            "url": "#",
+            "summary": "lorem",
+            "type": "product",
+            "isParent": 0,
+            "isFeatured": 0,
+            "thumbnail": {
+              "icons": "/",
+              "image": "/"
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "12h2",
+    "name": "Laptop-Máy tính xách tay",
+    "url": "#",
+    "summary": "lorem",
+    "type": "product",
+    "isParent": 1,
+    "isFeatured": 1,
+    "thumbnail": {
+      "icons": "/images/icon-category/ic_3.png",
+      "image": "/"
+    },
+    "children": [
+      {
+        "id": "1sh39",
+        "name": "Phụ kiện máy tính",
+        "url": "#",
+        "summary": "lorem",
+        "type": "product",
+        "isParent": 0,
+        "isFeatured": 0,
+        "thumbnail": {
+          "icons": "/",
+          "image": "/"
+        }
+      }
+    ]
+  },
+  {
+    "id": "12h4",
+    "name": "Màn hình máy tính",
+    "url": "#",
+    "summary": "lorem",
+    "type": "product",
+    "isParent": 1,
+    "isFeatured": 1,
+    "buildPc": 1,
+    "thumbnail": {
+      "icons": "/images/icon-category/ic_4.png",
+      "image": "/"
+    },
+    "children": [
+      {
+        "id": "1sh334",
+        "name": "Phụ kiện máy tính",
+        "url": "#",
+        "summary": "lorem",
+        "type": "product",
+        "isParent": 0,
+        "isFeatured": 0,
+        "thumbnail": {
+          "icons": "/",
+          "image": "/"
+        }
+      }
+    ]
+  },
+  {
+    "id": "12h5",
+    "name": "Phím Chuột, Bàn Ghế, Gaming Gear",
+    "url": "#",
+    "summary": "lorem",
+    "type": "product",
+    "isParent": 1,
+    "isFeatured": 1,
+    "thumbnail": {
+      "icons": "/images/icon-category/ic_5.png",
+      "image": "/"
+    },
+    "children": [
+      {
+        "id": "1sh334",
+        "name": "Phụ kiện máy tính",
+        "url": "#",
+        "summary": "lorem",
+        "type": "product",
+        "isParent": 0,
+        "isFeatured": 0,
+        "thumbnail": {
+          "icons": "/",
+          "image": "/"
+        }
+      }
+    ]
+  },
+  {
+    "id": "12h6",
+    "name": "Thiết bị nghe nhìn",
+    "url": "#",
+    "summary": "lorem",
+    "type": "product",
+    "isParent": 1,
+    "isFeatured": 1,
+    "thumbnail": {
+      "icons": "/images/icon-category/ic_6.png",
+      "image": "/"
+    },
+    "children": [
+      {
+        "id": "1sh3dfdd",
+        "name": "Phụ kiện máy tính",
+        "url": "#",
+        "summary": "lorem",
+        "type": "product",
+        "isParent": 0,
+        "isFeatured": 0,
+        "thumbnail": {
+          "icons": "/",
+          "image": "/"
+        }
+      }
+    ]
+  },
+  {
+    "id": "12h7",
+    "name": "Tản nhiệt máy tính",
+    "url": "#",
+    "summary": "lorem",
+    "type": "product",
+    "isParent": 1,
+    "isFeatured": 1,
+    "thumbnail": {
+      "icons": "/images/icon-category/ic_7.png",
+      "image": "/"
+    },
+    "children": [
+      {
+        "id": "1sh3er",
+        "name": "Phụ kiện máy tính",
+        "url": "#",
+        "summary": "lorem",
+        "type": "product",
+        "isParent": 0,
+        "isFeatured": 0,
+        "thumbnail": {
+          "icons": "/",
+          "image": "/"
+        }
+      }
+    ]
+  },
+  {
+    "id": "12h8",
+    "name": "Máy in. thiết bị văn phòng",
+    "url": "#",
+    "summary": "lorem",
+    "type": "product",
+    "isParent": 1,
+    "isFeatured": 1,
+    "thumbnail": {
+      "icons": "/images/icon-category/ic_8.png",
+      "image": "/"
+    },
+    "children": [
+      {
+        "id": "1sh3dfrer",
+        "name": "Phụ kiện máy tính",
+        "url": "#",
+        "summary": "lorem",
+        "type": "product",
+        "isParent": 0,
+        "isFeatured": 0,
+        "thumbnail": {
+          "icons": "/",
+          "image": "/"
+        }
+      }
+    ]
+  },
+  {
+    "id": "12h9",
+    "name": "Thiết bị mạng, Phần mềm bản quyền",
+    "url": "#",
+    "summary": "lorem",
+    "type": "product",
+    "isParent": 1,
+    "isFeatured": 1,
+    "thumbnail": {
+      "icons": "/images/icon-category/ic_9.png",
+      "image": "/"
+    },
+    "children": [
+      {
+        "id": "1sh3dfdfdfd",
+        "name": "Phụ kiện máy tính",
+        "url": "#",
+        "summary": "lorem",
+        "type": "product",
+        "isParent": 0,
+        "isFeatured": 0,
+        "thumbnail": {
+          "icons": "/",
+          "image": "/"
+        }
+      }
+    ]
+  },
+  {
+    "id": "12d1",
+    "name": "Thiết bị lưu trữ",
+    "url": "#",
+    "summary": "lorem",
+    "type": "product",
+    "isParent": 1,
+    "isFeatured": 1,
+    "thumbnail": {
+      "icons": "/images/icon-category/ic_10.png",
+      "image": "/"
+    },
+    "children": [
+      {
+        "id": "1sh3rRt",
+        "name": "Phụ kiện máy tính",
+        "url": "#",
+        "summary": "lorem",
+        "type": "product",
+        "isParent": 0,
+        "isFeatured": 0,
+        "thumbnail": {
+          "icons": "/",
+          "image": "/"
+        }
+      }
+    ]
+  },
+  {
+    "id": "12d2",
+    "name": "camera, thiết bị chăm sóc sức khỏe",
+    "url": "#",
+    "summary": "lorem",
+    "type": "product",
+    "isParent": 1,
+    "isFeatured": 1,
+    "thumbnail": {
+      "icons": "/images/icon-category/ic_11.png",
+      "image": "/"
+    },
+    "children": [
+      {
+        "id": "1sh5R3",
+        "name": "Phụ kiện máy tính",
+        "url": "#",
+        "summary": "lorem",
+        "type": "product",
+        "isParent": 0,
+        "isFeatured": 0,
+        "thumbnail": {
+          "icons": "/",
+          "image": "/"
+        }
+      }
+    ]
+  },
+  {
+    "id": "12d3",
+    "name": "Thiết bị điện lạnh",
+    "url": "#",
+    "summary": "lorem",
+    "type": "product",
+    "isParent": 0,
+    "isFeatured": 0,
+    "thumbnail": {
+      "icons": "/images/icon-category/ic_1.png",
+      "image": "/"
+    }
+  }
+]

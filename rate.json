@@ -1,0 +1,78 @@
+[
+  {
+    "id": "81",
+    "item_type": "product",
+    "idProduct": 3594,
+    "people_like_count": "0",
+    "people_dislike_count": "0",
+    "reply_count": "0",
+    "is_user_admin": "0",
+    "user_avatar": "",
+    "user_name": "Quety",
+    "rate": "2",
+    "title": "",
+    "content": "Mới tậu 1 e cũng được",
+    "files": [],
+    "approved": "0",
+    "post_time": "1649845778742",
+    "counter": 1,
+    "replies": [
+      {
+        "id": "8232",
+        "item_type": "product",
+        "idProduct": 3594,
+        "people_like_count": "0",
+        "people_dislike_count": "0",
+        "reply_count": "0",
+        "is_user_admin": "1",
+        "user_avatar": "",
+        "user_name": "Trường",
+        "rate": "5",
+        "title": "",
+        "content": "oke",
+        "files": [],
+        "approved": "0",
+        "post_time": "1649845778742",
+        "counter": 1
+      }
+    ]
+  },
+  {
+    "id": "81333",
+    "item_type": "product",
+    "idProduct": 389,
+    "people_like_count": "0",
+    "people_dislike_count": "0",
+    "reply_count": "0",
+    "is_user_admin": "0",
+    "user_avatar": "",
+    "user_name": "Quety",
+    "rate": "4",
+    "title": "",
+    "content": "Mới tậu 1 e cũng được",
+    "files": [],
+    "approved": "0",
+    "post_time": "1649845778742",
+    "counter": 1,
+    "replies": [
+      {
+        "id": "823",
+        "item_type": "product",
+        "idProduct": 389,
+        "people_like_count": "0",
+        "people_dislike_count": "0",
+        "reply_count": "0",
+        "is_user_admin": "1",
+        "user_avatar": "",
+        "user_name": "Trường",
+        "rate": "5",
+        "title": "",
+        "content": "oke",
+        "files": [],
+        "approved": "0",
+        "post_time": "1649845778742",
+        "counter": 1
+      }
+    ]
+  }
+]

@@ -1,0 +1,212 @@
+# GET http://localhost:5000/
+
+
+//register
+POST  http://localhost:5000/api/auth/register
+Content-Type: application/json
+
+{
+    "account": "duong@gmail.com",
+    "password": "quyet@gmail.com",
+    "userName": "Nguyễn Xuân Quyết1212",
+    "age": 18,
+    "address": "Tran Duy Hung",
+    "phone":14484848448
+}
+
+###
+//login
+POST  http://localhost:5000/api/auth/login
+Content-Type: application/json
+
+{
+    "account": "quyetnxm04120@gmail.com",
+    "password": "12341234"
+}
+
+
+###
+// get account
+GET   http://localhost:5000/api/account
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI2MmM0YTIyYjRkZDU5MzM3Y2JhZWU1YjEiLCJpYXQiOjE2NTcxMzI3OTF9.unQhwjgdm2PxioX_8eldoEmWKYqe3Eiv2ThCoRPcWBU
+
+###
+// update account
+PUT    http://localhost:5000/api/account
+Content-Type: application/json
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI2MmJkMTQ4OTk0YTI2MzFhMWQ2OWU4YWYiLCJpYXQiOjE2NTY2MTMzMzV9.Aey5XmxS2o3EoC4yObG_3pbXmLSaVWZuG6vgM2Wb98E
+
+{
+    # "newpPassword":"123123",
+    # "oldPassword":"quety",
+    "userName":"Nguyen Truong1", 
+    "address": "Truong Chinh", 
+    "age": 20
+}
+
+###
+POST  http://localhost:5000/api/bill
+Content-Type: application/json
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI2MmJkMTQ4OTk0YTI2MzFhMWQ2OWU4YWYiLCJpYXQiOjE2NTY2MDA2MjV9.z6DSUXTaV5DpOQznrAwNLzW7NR4-ADxA3Z9tXkj-hz4
+
+{
+    "address": "quety11",
+    "email": "quety@gmail.com",
+    "name": "Cu Q",
+    "phone":"234",
+    "products": [
+        {
+            "id": "1515",
+            "count": 1
+        }
+    ]
+}
+
+###
+//get bill by orderSku 
+GET   http://localhost:5000/api/bill/5616 
+Content-Type: application/json
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI2MmM0YTIyYjRkZDU5MzM3Y2JhZWU1YjEiLCJpYXQiOjE2NTk0OTIzMjB9.VXQWzVj3Ii__vidt5TCFGZPv-mAKI8RgazRyohpRbRk
+###
+
+//get bill in sendCart
+GET   http://localhost:5000/api/bill/send-cart/5616 
+
+
+###
+//get bills
+GET   http://localhost:5000/api/bill
+Content-Type: application/json
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI2MmM0YTIyYjRkZDU5MzM3Y2JhZWU1YjEiLCJpYXQiOjE2NTk0OTIzMjB9.VXQWzVj3Ii__vidt5TCFGZPv-mAKI8RgazRyohpRbRk
+
+
+###
+DELETE    http://localhost:5000/api/bill/62bdc4abf92f4e9a79cfe5e6
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI2MmJkMTQ4OTk0YTI2MzFhMWQ2OWU4YWYiLCJpYXQiOjE2NTY2MDA2MjV9.z6DSUXTaV5DpOQznrAwNLzW7NR4-ADxA3Z9tXkj-hz4
+
+
+###
+//get category product
+GET  http://localhost:5000/api/category-product?type=featured
+
+###
+//get banner homepage
+GET http://localhost:5000/api/banner/homepage
+
+
+###
+//get banner category
+GET http://localhost:5000/api/banner/category?idCategory=12h3sdsd
+
+
+###
+//get products
+GET http://localhost:5000/api/products?type=hot
+
+###
+//get article
+GET http://localhost:5000/api/article?&idCategory=sd9jd
+
+###
+//get article detail
+GET http://localhost:5000/api/article/detail/454sd
+
+###
+//get category article
+GET http://localhost:5000/api/category-article
+
+###
+// post rate
+POST  http://localhost:5000/api/rate
+Content-Type: application/json
+
+{
+    "user_name": "Nguyen Xuan Quyetkk",
+    "rate": "1",
+    "content": "hay day ok",
+    "idProduct": 11
+}
+
+
+###
+// get rate
+GET   http://localhost:5000/api/rate/11
+
+
+###
+// post reply rate
+PUT http://localhost:5000/api/rate/reply
+Content-Type: application/json
+
+{
+    "idRate": "62d9b75698962449ce3904b8",
+    "content":" vip pro",
+    "user_name": "quat dk"
+}
+
+###
+//add cart
+POST  http://localhost:5000/api/cart/add
+Content-Type: application/json
+
+{
+    "payload": [{"id":112,"count":2},{"id":11,"count":2}]
+}
+
+
+###
+// post flash deal
+POST  http://localhost:5000/api/flash-deal
+Content-Type: application/json
+
+{
+    "product": "62cc89f1725035f700a04122",
+    "date": "2022-12-07",
+    "priceDeal": 3500000
+
+}
+
+###
+// get flash deal
+GET   http://localhost:5000/api/flash-deal
+
+
+
+###
+// post user like product
+POST  http://localhost:5000/api/product-like
+Content-Type: application/json
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI2MmJkMTQ4OTk0YTI2MzFhMWQ2OWU4YWYiLCJpYXQiOjE2NTY2MDA2MjV9.z6DSUXTaV5DpOQznrAwNLzW7NR4-ADxA3Z9tXkj-hz4
+
+{
+    "idProduct": 15
+
+}
+
+###
+// get user like product
+GET  http://localhost:5000/api/product-like
+Content-Type: application/json
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI2MmM0YTIyYjRkZDU5MzM3Y2JhZWU1YjEiLCJpYXQiOjE2NjA5OTg4NDJ9.0Spyv2Zbl1UMkM8zcp9w_sEWbNCVzm_BWs9HOQP7I0Y
+
+###
+// get product liked
+GET  http://localhost:5000/api/product-like/15
+Content-Type: application/json
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI2MmJkMTQ4OTk0YTI2MzFhMWQ2OWU4YWYiLCJpYXQiOjE2NTY2MDA2MjV9.z6DSUXTaV5DpOQznrAwNLzW7NR4-ADxA3Z9tXkj-hz4
+
+
+###
+// Put delete product liked
+PUT   http://localhost:5000/api/product-like
+Content-Type: application/json
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI2MmJkMTQ4OTk0YTI2MzFhMWQ2OWU4YWYiLCJpYXQiOjE2NTY2MDA2MjV9.z6DSUXTaV5DpOQznrAwNLzW7NR4-ADxA3Z9tXkj-hz4
+
+{
+    "productId": 11
+
+}
+
+
+
+

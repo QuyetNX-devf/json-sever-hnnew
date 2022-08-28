@@ -1,0 +1,46 @@
+[
+  {
+    "id": "sd9jd",
+    "title": "Tin công nghệ",
+    "parentId": 0,
+    "isParent": 1,
+    "thumbnail": "",
+    "type": "article",
+    "url": "",
+    "item_count": 40,
+    "children": []
+  },
+  {
+    "id": "sd9jdw",
+    "title": "Tin khuyến mãi",
+    "parentId": 0,
+    "isParent": 1,
+    "thumbnail": "",
+    "type": "article",
+    "url": "",
+    "item_count": 40,
+    "children": []
+  },
+  {
+    "id": "sd9jdwss",
+    "title": "Blog thủ thuật",
+    "parentId": 0,
+    "isParent": 1,
+    "thumbnail": "",
+    "type": "article",
+    "url": "",
+    "item_count": 40,
+    "children": []
+  },
+  {
+    "id": "sd9jdwff",
+    "title": "Tin tức game",
+    "parentId": 0,
+    "isParent": 1,
+    "thumbnail": "",
+    "type": "article",
+    "url": "",
+    "item_count": 40,
+    "children": []
+  }
+]
